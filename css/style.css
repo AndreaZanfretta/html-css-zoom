@@ -89,6 +89,7 @@ main{
     position: absolute;
     bottom: 2px;
     left: 2px;
+    color: red;
 }
 /* footer */
 .footer-nav{
@@ -135,15 +136,38 @@ main{
 .fa-angle-up{
     font-size: 14px;
 }
+.left .fa-microphone-slash{
+    position: absolute;
+    bottom: 37px;
+    left: 3px;
+    color: red;
+    font-size: 30px;
+    visibility: hidden;
+    margin: 0 10px;
+}
+.left li:active .fa-microphone{
+    visibility: hidden;
+}
+.left li:active .fa-microphone-slash{
+    visibility: visible;
+}
 .fa-share-from-square{
     color: #4BC800;
 }
  ul li p{
     font-size: 16px;
 }
+ul li:hover{
+    background-color: #727272;
+    cursor: pointer;
+}
 .btn{
     width: 120px;
     margin-right: 20px;
+}
+.btn p:hover{
+    background-color: #727272;
+    cursor: pointer;
 }
 .right p{
     color: red;
