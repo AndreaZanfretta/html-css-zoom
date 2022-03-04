@@ -8,6 +8,7 @@
 }
 body{
     background-color: rgb(0, 0, 0);
+    color: white;
 }
 /* header */
 header{
@@ -21,7 +22,6 @@ header{
     background-color: black;
 }
 nav.header-nav .fa-table-cells, .fa-maximize, span{
-    color: white;
     position: absolute;
 }
 .speaker, .full{
@@ -78,7 +78,6 @@ main{
     position: absolute;
     bottom: 0;
     left: 0;
-    color: white;
     background-color: rgba(0, 0, 0, 0.6);
     padding-left: 30px;
     font-size: 14px;
@@ -104,14 +103,16 @@ main{
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    color: white;
+    overflow-x: auto;
 }
 .left{
     width: 30%;
+    min-width: 173px;
 }
 .center{
     width: 70%;
     text-align: center;
+    min-width: 730px;
 }
 .right{
     display: flex;
@@ -119,6 +120,7 @@ main{
     text-align: center;
     justify-content: flex-end;
     line-height: 80px;
+    min-width: 140px;
 }
  ul{
     list-style: none;
